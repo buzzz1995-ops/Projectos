@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>🎮 Jogo do Galo 🎮</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <h1>Jogo do Galo</h1>
+  <button onclick="voltarMenu()">Menu Principal</button>
+  <div class="tabuleiro" id="tabuleiro">
+    <div class="casa" data-index="0"></div>
+    <div class="casa" data-index="1"></div>
+    <div class="casa" data-index="2"></div>
+    <div class="casa" data-index="3"></div>
+    <div class="casa" data-index="4"></div>
+    <div class="casa" data-index="5"></div>
+    <div class="casa" data-index="6"></div>
+    <div class="casa" data-index="7"></div>
+    <div class="casa" data-index="8"></div>
+  </div>
+
+  <div class="mensagem" id="mensagem">Vez do jogador X</div>
+  <button onclick="reiniciarJogo()">Reiniciar</button>
+  <br>
+  <script src="script.js"></script>
+</body>
+
+</html>

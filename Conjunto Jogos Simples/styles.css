@@ -1,0 +1,86 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Fundo e fontes */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #0d1b2a, #1b263b);
+    color: #e0e1dd;
+    text-align: center;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Cabeçalho */
+header {
+    padding: 2rem;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    color: #e0e1dd;
+    margin-bottom: 0.5rem;
+}
+
+header p {
+    font-size: 1.2rem;
+    color: #a9bcd0;
+}
+
+/* Layout dos jogos */
+main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.caixa {
+    display: flex;
+    gap: 2rem;
+}
+
+/* Cartões dos jogos */
+.card {
+    background: #1e3a5f;
+    border-radius: 15px;
+    padding: 1rem;
+    width: 160px;
+    height: 160px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: #f1faee;
+    font-weight: bold;
+    transition: transform 0.3s, background 0.3s, box-shadow 0.3s;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
+}
+
+.card img {
+    width: 90px;
+    height: 90px;
+    margin-bottom: 0.7rem;
+    filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.4));
+}
+
+.card:hover {
+    transform: scale(1.08);
+    background: #27496d;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
+}
+
+/* Rodapé */
+footer {
+    padding: 1rem;
+    font-size: 0.9rem;
+    color: #778da9;
+}

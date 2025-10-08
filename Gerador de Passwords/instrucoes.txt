@@ -1,0 +1,13 @@
+1- Ambiente virutal que vai conter as bibliotecas necessárias
+2- Reqirements.txt (opcional)
+3- Icon -> extensão.ico
+4- Chamar o pyinstaller
+* Python -m PyInstaller
+* --onefile (tudo num único exe)
+* --windowed (sem janela da consola - só funciona para apps com GUI)
+* --icon "icon/icon.py"
+* --name "NomeDoExe" (damos o nome do executável que tem a extensão exe)
+* --clean (para não incluir qualquer tipo de cache)
+* app.py (ponto de entrada do programa)
+
+python -m PyInstaller --onefile --windowed --icon "icon/icon.ico" --name "GeradorPassword" --clean app.py

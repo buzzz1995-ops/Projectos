@@ -1,0 +1,41 @@
+/* Container principal */
+.ppt-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+
+/* Botões das escolhas */
+.ppt-btn {
+    background: #1e3a5f;
+    color: #f1faee;
+    border: none;
+    border-radius: 15px;
+    padding: 1rem 2rem;
+    font-size: 1.2rem;
+    margin: 0 0.5rem;
+    cursor: pointer;
+    transition: transform 0.3s, background 0.3s, box-shadow 0.3s;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.4);
+}
+
+.ppt-btn:hover {
+    transform: scale(1.1);
+    background: #27496d;
+    box-shadow: 0 6px 12px rgba(0,0,0,0.5);
+}
+
+/* Resultados */
+.result p {
+    font-size: 1.2rem;
+    margin: 0.5rem 0;
+}
+
+/* Botão voltar */
+.voltar {
+    display: inline-block;
+    margin-top: 2rem;
+    width: 160px;
+    text-align: center;
+}

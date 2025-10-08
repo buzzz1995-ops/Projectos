@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo da Forca</title>
+    <link rel="stylesheet" href="../styles.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>🎯 Jogo da Forca 🎯</h1>
+        <p>Tenta adivinhar a palavra antes da forca ser completada!</p>
+    </header>
+
+    <main>
+        <div class="forca-container">
+            <canvas id="forcaCanvas" width="200" height="250"></canvas>
+
+            <p class="palavra" id="palavraDisplay">_ _ _ _ _</p>
+
+            <div class="letras"></div>
+
+            <p id="mensagem"></p>
+
+            <button id="reiniciar" class="card voltar" style="display:none;">🔁 Jogar Novamente</button>
+            <a href="../index.html" class="card voltar">🔙 Voltar ao Menu</a>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,56 @@
+.forca-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.palavra {
+    font-size: 2rem;
+    letter-spacing: 0.5rem;
+}
+
+.letras {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+.letras button {
+    background: #1e3a5f;
+    color: #f1faee;
+    border: none;
+    border-radius: 8px;
+    padding: 0.6rem 1rem;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: transform 0.2s, background 0.2s;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.4);
+}
+
+.letras button:hover {
+    transform: scale(1.1);
+    background: #27496d;
+}
+
+#mensagem {
+    font-size: 1.3rem;
+    color: #f07167;
+    font-weight: bold;
+}
+
+/* Botão voltar */
+.voltar {
+    display: inline-block;
+    margin-top: 1rem;
+    width: 160px;
+    text-align: center;
+}
+
+.letras button.certo {
+    background: #2a9d8f;
+}
+.letras button.errado {
+    background: #e63946;
+}
